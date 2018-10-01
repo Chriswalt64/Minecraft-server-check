@@ -17,3 +17,8 @@ Nextel: phonenumber@messaging.nextel.com
 US Cellular: phonenumber@mms.uscc.net
 
 
+## Using smtplib
+
+https://docs.python.org/3/library/smtplib.html
+
+I wont go into all of the information on how it works here, but I have included a link to the documentation for the smtplib Module in Python. 
