@@ -1,1 +1,3 @@
+REMOVE ALL TEXT AND ADD EMAILS/PHONE NUMBERS, ONE PER LINE
 
+This is where your contacts will be listed, so add any emails or phone numbers you want notified in the event of your server being down
