@@ -19,14 +19,14 @@ else:
   contacts = open('numbers.txt').readlines()
   content = "The Minecraft server is down. "
 # setting up auto generated emails when server is down
- # mail = smtplib.SMTP('smtp.gmail.com',587)
+  mail = smtplib.SMTP('smtp.gmail.com',587)
   #Accessing the extended smtp stuff
-  #mail.ehlo()
+  mail.ehlo()
   #Encrypt login credentials
-  #mail.starttls()
+  mail.starttls()
   #login to email
-  #mail.login(user,passwd)
-  #actual email
-  #mail.sendmail('fromemail',contacts,content)
+  mail.login(user,passwd)
+  #actual email write
+  mail.sendmail('fromemail',contacts,content)
   #closing out the login info
-  #mail.close()
+  mail.close()
